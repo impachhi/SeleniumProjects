@@ -25,3 +25,4 @@ select class in selenium java for slecting particular element with dropdown opti
 List <WebElement> //for  loop with list of webelements
 switchto() method 
 Actions class in selenium for actions like double click , movetoelement ,right click , build , perform etc
+working on note pad to learn gi online eddit
