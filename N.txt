@@ -1,0 +1,27 @@
+1/8/2020
+==========================================================================================
+//tagname[@attribute='value']
+//*[@attribute='value'][@attribute='value']  // multiple attributes can be used
+//*[@attribute='value'and @attribute='value'] // multiple attributes with and (logical AND)
+//*[@attribute='value'or @attribute='value']  // multiple attributes with OR (logical OR)
+//-relative x path anywhere
+/ - absolute xpath
+# is used for id attribute in css
+. is used for class name in css selector
+* is used for contain attribute in css selector 
+^ starts with
+$- Ends with
+//tagname[starts-with(attribute,'value')]
+//*[starts-with(attribute,'value')]
+//tagname[ends-with(attribute,'value')]
+//*[ends-with(attribute,'value')]
+
+driver.navigate().to("www.google.com");
+select class for selection with options
+====================================================
+3/8/2020
+===============================================
+select class in selenium java for slecting particular element with dropdown option
+List <WebElement> //for  loop with list of webelements
+switchto() method 
+Actions class in selenium for actions like double click , movetoelement ,right click , build , perform etc
